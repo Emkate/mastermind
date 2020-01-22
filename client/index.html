@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mastermind</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <div id="welcomeScreen" class="welcome-screen">
+      <div class="welcome-screen__text">
+        Welcome to Mastermind, <br> you have nine rounds to guess the order of dots. <br> Good luck!
+      </div>
+      <button id="beginButton" class="welcome-screen__button">Begin</button>
+    </div>
+
+    <div class="game-screen">
+      <div class="game-screen__available-colors">
+        <div class="available-colors__item available-colors__item--0"></div>
+        <div class="available-colors__item available-colors__item--1"></div>
+        <div class="available-colors__item available-colors__item--2"></div>
+        <div class="available-colors__item available-colors__item--3"></div>
+        <div class="available-colors__item available-colors__item--4"></div>
+        <div class="available-colors__item available-colors__item--5"></div>
+        <div class="available-colors__item available-colors__item--6"></div>
+        <div class="available-colors__item available-colors__item--7"></div>
+      </div>
+      <div class="game-screen__guess-board">
+        <div class="guess-board__line">
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+        </div>
+        <div class="guess-board__line">
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+        </div>
+        <div class="guess-board__line">
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+        </div>
+        <div class="guess-board__line">
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+        </div>
+        <div class="guess-board__line">
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+        </div>
+        <div class="guess-board__line">
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+        </div>
+        <div class="guess-board__line">
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+        </div>
+        <div class="guess-board__line">
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+        </div>
+        <div class="guess-board__line">
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+          <div class="guess-board__line-item"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
